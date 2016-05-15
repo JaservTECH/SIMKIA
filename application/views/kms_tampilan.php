@@ -141,9 +141,9 @@ if (!defined ('BASEPATH'))
             pointHighlightFill: "rgba(0,0,0,0)",
             pointHighlightStroke: "rgba(220,220,220,0)",
             data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0,0, 0,0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-        }
+        },
 		{
-		label : "data anak",
+			label : "data anak",
 			fillColor: "rgba(220,220,220,0)",
             strokeColor: "rgba(20,20,20,1)",
             pointColor: "rgba(220,220,220,0)",

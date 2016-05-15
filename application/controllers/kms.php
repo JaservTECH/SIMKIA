@@ -15,6 +15,6 @@ class Kms extends CI_Controller {
 		}
 		$temp2 = substr($temp2,0,strlen($temp2)-1);
 		$data['dataArray']= $temp2;
-		$this->load->view('kms_tampilan');
+		$this->load->view('kms_tampilan',$data);
 	}
 }
