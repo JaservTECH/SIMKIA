@@ -25,43 +25,7 @@
                         <p>Selamat menggunakan fasilitas ini.</p>
                     </div>
                 </div>
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                        <i>Call Center</i>
-                    </div>
-                    <div class="panel-body">
-                        <p>(0274) 376793 (Unit Ibu)</p>
-                        <p></p>
-                        <p>(0274) 383008 (Unit Anak)</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">Jadwal Pelayanan</div>
-                    <div class="panel-body">
-                        <table class="table table-striped table-condensed">
-                            <tbody style="font-size: 13px">
-                                <tr>
-                                    <td>Prof. Dr. H. Moch. Anwar, M.Med.Sc., SpOG(K)</td>
-                                    <td>Senin s.d. Jum'at</td>
-                                    <td>Pk. 18.30-20.00</td>
-                                </tr>
-                                <tr>
-                                    <td>Dr. Hj. Anisah, SpOG</td>
-                                    <td>Senin dan Kamis</td>
-                                    <td>Pk. 17.00-18.00</td>
-                                </tr>
-                                <tr>
-                                    <td>Dr. Ardhanu Kusumanto, SpOG(K)</td>
-                                    <td>Sabtu</td>
-                                    <td>Pk. 18.00-20.00</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="panel panel-primary">
+				<div class="panel panel-primary">
                     <div class="panel-heading">Pelayanan</div>
                     <div class="panel-body">
                         <table class="table table-striped">
@@ -98,6 +62,90 @@
                                 </tr>
                             </tbody>
                         </table>
+                    </div>
+                </div>
+            </div>
+			
+            <div class="col-md-6">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">Jadwal Pelayanan</div>
+                    <div class="panel-body">
+                        <table class="table table-striped table-condensed">
+                            <tbody style="font-size: 13px">
+								<tr>
+									<td colspan="3"><b>Unit Ibu :</b></td>
+								</tr>
+								<tr>
+									<td colspan="3"><i>Dokter Kandungan</i></td>
+								</tr>
+                                <tr>
+                                    <td>Prof. Dr. H. Moch. Anwar, M.Med.Sc., SpOG(K)</td>
+                                    <td>Senin s.d. Jum'at</td>
+                                    <td>Pk. 18.30-20.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Dr. Hj. Anisah, SpOG</td>
+                                    <td>Senin dan Kamis</td>
+                                    <td>Pk. 17.00-18.00</td>
+                                </tr>
+                                <tr>
+                                    <td>Dr. Ardhanu Kusumanto, SpOG(K)</td>
+                                    <td>Sabtu</td>
+                                    <td>Pk. 18.00-20.00</td>
+                                </tr>
+								<tr>
+                                    <td>Dr. Ardhanu Kusumanto, SpOG(K)</td>
+                                    <td>Sabtu</td>
+                                    <td>Pk. 18.00-20.00</td>
+                                </tr>
+								<tr>
+									<td colspan="3"><b>Unit Anak :</b></td>
+								</tr>
+								<tr>
+									<td colspan="3"><i>Dokter Ahli Anak</i></td>
+								<tr>
+									<td>dr. Neti Nurani, M.Kes., Sp.A.(K)</td>
+									<td>Senin, Rabu, Jumat</td>
+									<td>Pk. 17.00-18.30</td>
+								</tr>
+								<tr>
+									<td rowspan="3">dr. Braghmandita W.I., M.Sc., Sp.A.</td>
+									<td rowspan="2">Selasa, Kamis </td>
+									<td>Pk. 09.00-11.00</td>
+								</tr>
+								<tr>
+									<td>Pk. 17.00-18.30</td>
+								</tr>
+								<tr>
+									<td>Sabtu</td>
+									<td>Pk. 16.00-19.00</td>
+								</tr>
+								<tr>
+									<td colspan="3"><i>Spesialis Bedah Anak</i></td>
+								<tr>
+								<tr>
+									<td colspan="3">dr. Akhmad Mahmudi, Sp.BA.</td>
+								</tr>
+								<tr>
+									<td colspan="3"><i>Massage Baby</i></td>
+								<tr>
+								<tr>
+									<td>Monica Anggi P., A.Md.Ft.</td>
+									<td>Senin, Kamis</td>
+									<td>Pk. 17.00-18.30</td>
+								</tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+				<div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <i>Call Center</i>
+                    </div>
+                    <div class="panel-body">
+                        <p>(0274) 376793 (Unit Ibu)</p>
+                        <p></p>
+                        <p>(0274) 383008 (Unit Anak)</p>
                     </div>
                 </div>
             </div>
