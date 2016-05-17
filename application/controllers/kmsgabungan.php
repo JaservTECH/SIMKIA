@@ -8,7 +8,7 @@ class Kmsgabungan extends CI_Controller {
 		$this->load->helper('url');
 	}
 	function index() {
-		$temp=array(12,12.4,14,15,16,17,16);
+		$temp=array(4,4,4,4,4,4,4,4,5,5,5,5,5,6,7,7,7,7,6,6,6,7,7,7,7,7,7,7,7,8,8,8,8,9,9,9,9,9,10,10,10,10,10);
 		$temp2 ="";
 		foreach ($temp as $value){
 			$temp2.=$value.",";
