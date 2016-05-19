@@ -129,7 +129,7 @@
                                 <a onclick="reset();" class="dropdown-toggle" role="button" aria-expanded="false" aria-haspopup="true" href="#" data-toggle="dropdown">Grafik Perkembangan<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="<?php echo base_url();?>index.php/kms">Kartu Menuju Sehat</a>
+                                        <a href="<?php echo base_url();?>index.php/kmsbaby">Kartu Menuju Sehat</a>
                                     </li>
                                 </ul>
                             </li>
