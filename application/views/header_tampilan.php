@@ -145,7 +145,7 @@
                                 <a class="dropdown-toggle" role="button" aria-expanded="false" aria-haspopup="true" href="#" data-toggle="dropdown">Pevita Pearce, Ny<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="#">Keluar</a>
+                                        <a href="<?php echo $keluar;?>">Keluar</a>
                                     </li>
                                 </ul>
                             </li>			

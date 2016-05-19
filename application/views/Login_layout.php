@@ -111,10 +111,10 @@
 							  
 							  <input type="password" name="password" id="password" class="form-control" placeholder="Password" required>
 							  
-							  <select class="form-control">
-								<option>Admin</option>
-								<option>Petugas</option>
-								<option>Pasien</option>
+							  <select class="form-control" name="kategori">
+								<option value="1">Admin</option>
+								<option value="2">Petugas</option>
+								<option value="3">Pasien</option>
 							  </select>
 							<div class="checkbox">
 							<button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">Login</button>
