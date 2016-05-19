@@ -137,7 +137,7 @@
                                 <a href="<?php echo base_url();?>index.php/surat_keterangan_lahir">Surat Keterangan Lahir</a>
                             </li>
 							<li>
-								<a href="<?php echo base_url();?>index.php/menyambut_persalinan.php">Rencana Persalinan</a>
+								<a href="<?php echo base_url();?>index.php/menyambut_persalinan">Rencana Persalinan</a>
 							</li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
