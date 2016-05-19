@@ -6,13 +6,20 @@
 		function __CONSTRUCT(){
 			parent::__CONSTRUCT();
 			$this->load->helper('url');
+			$this->load->library('session');
 		}
 		public function index(){
-			$this->load->view("header_tampilan");
+			$temp = $this->session->all_userdata();
+			if(!array_key_exists("pasien",$temp))
+				redirect("Login/");
+			if(!array_key_exists("pass",$temp))
+				redirect("Login/");
+			$data['keluar'] = base_url()."index.php/Home/keluarPasien";
+			$this->load->view("header_tampilan",$data);
 			$this->load->model('kunjungan_model');
 			$this->load->model('jenis_pemeriksaan_model');
 			$this->load->model('data_pasien_model');
-			$temp = $this->kunjungan_model->GetAllContentTable();
+			$temp = $this->kunjungan_model->GetAllContentTable($temp['pasien']);
 			$content='';
 			$code = '';
 			$cursor = count($temp);

@@ -9,7 +9,7 @@ class Kunjungan_model extends CI_Model {
 		$this->load->database();
 		$this->TABLE_NAME = "kunjungan";
 	}
-	function GetAllContentTable(){
-		return $this->db->query("SELECT * FROM ".$this->TABLE_NAME)->result_array();
+	function GetAllContentTable($norm){
+		return $this->db->query("SELECT * FROM ".$this->TABLE_NAME." WHERE no_RM='".$norm."'")->result_array();
 	}
 }
