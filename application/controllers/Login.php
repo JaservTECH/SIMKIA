@@ -19,7 +19,7 @@
 		}
 		
 		function login_authenticate(){
-			$this->load->model('login_model');
+			$this->load->model('data_pasien_model');
 			if($this->input->post('submit') === NULL){
 				$this->index(1,'Anda login illegal metode');
 				return;
@@ -42,22 +42,21 @@
 				$this->index(1,"Username tidah Boleh kosong");
 				return;
 			}
-			$temp = $this->login_model->getData($username,$password);
+			$temp = $this->data_pasien_model->GetAllContentTable($username);
 			if(count($temp)==0)
 			{
 				$this->index(1,"Username atau password anda tidak terdaftar");
 				return;
 			}else{
-				if($username!= $temp['user']){
+				if($username!= $temp['no_RM']){
 					$this->index(1,"Username tidak cocok");
 					return;
 				}
-				if(md5($password)!= $temp['pass']){
+				if(md5($password)!= $temp['password']){
 					$this->index(1,"password tidak cocok");
 					return;
 				}
 				redirect('Home/');
-				
 			}
 		}
 }
